@@ -1,1 +1,2 @@
 # odin-recipe
+This is my first project for The Odin Project bootcamp. The project im attempting is a simple website recipe to test what I have learnt and an understandig of the basics I've learnt. I aim to demonstrate and undestanding of html elements, parent and child hierachy, git and organization.
