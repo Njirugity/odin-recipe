@@ -6,26 +6,25 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin: 0;
-    padding: 0;
+    padding: 10px 0 0 0;
     font-family: 'Roboto Mono', monospace;
     font-style: italic;
-    background-color: #DAC0A3;
-    color: #0F2C59;
+    background-color: #0F2C59;
+    color: #DAC0A3;
+
 
 }
 
 .header {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     max-height: 200px;
-    padding: 10px 100px;
 }
 
+
 .logo {
-    border: double #0F2C59;
-    color: #0F2C59;
+    border: double #DAC0A3;
+    color: #DAC0A3;
     height: 100px;
     width: 100px;
     display: flex;
@@ -33,47 +32,45 @@ body {
     justify-content: center;
     align-items: center;
     font-family: 'Roboto Condensed', sans-serif;
-    box-shadow: 0 0 25px #0F2C59;
+    box-shadow: 0 0 25px #F8F0E5;
+
 }
 
-ul {
-    list-style-type: none;
+.hero {
     display: flex;
-    gap: 16px;
-
-}
-
-a {
-    text-decoration: none;
-    padding: 8px;
-    border-right: 1px solid #3f3939;
-    color: #0F2C59;
-    transition: 0.2s;
-}
-
-a:hover {
-    font-size: 125%;
-    background-color: #F8F0E5;
-}
-
-img {
-
-    box-shadow: 12px 12px 25px #0F2C59;
-}
-
-.content {
-    display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    gap: 24px;
+    padding: 20px 100px;
+    margin: 20px;
+
+}
+
+.hero img {
+    width: 300px;
+    height: 300px;
+    box-shadow: 12px 12px 25px #F8F0E5;
+    border-radius: 8px;
+}
+
+.recipe-contents {
+    display: flex;
     flex-direction: column;
     flex: 1;
-    gap: 52px;
+    padding: 20px 100px;
+}
+
+.steps h2 {
+    text-align: center;
 }
 
 .footer {
     display: flex;
     background-color: #EADBC8;
+    color: #0F2C59;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    height: 100px;
 
 }
